@@ -1,0 +1,57 @@
+.image{
+    background-image: url('../../../../assets/images/info.png');
+}
+.some{
+    height: auto;
+    width: 100%;
+}
+.input-form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.input-label{
+    color:#fff;
+    padding:15px;
+    min-height: 60pt;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 , 145 ,237) ;
+}
+.input{
+    vertical-align: middle;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-label p{
+    color: #fff;
+}
+.downloads-item p{
+    color: #fff;
+}
+.downloads-item i{
+    color: #fff;
+    font-size: 40px;
+}
+.downloads-item{
+    border-width: 5px;
+    border-style: solid;
+    color: #fff;
+    background-color: rgb(0 , 145 ,237) ;
+    color:#fff;
+    padding:15px;
+    
+    min-height: 60pt;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-around;
+}
