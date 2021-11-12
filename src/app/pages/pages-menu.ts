@@ -37,6 +37,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/layout/list',
     home: true,
   },
+  {
+    title: 'Fuentes',
+    icon: 'file-text-outline',
+    link: '/pages/fonts',
+    home: true,
+  },
   // {
   //   title: 'Indicadores',
   //   icon: 'archive-outline',

@@ -33,6 +33,7 @@ import { FormsModule } from '@angular/forms';
 import { InfoComponent } from './info/info.component';
 import { IndexComponent } from './index/info.component';
 import { DownloadsComponent } from './downloads/downloads.component';
+import { FontsComponent } from './fonts/fonts.component';
 
 @NgModule({
   imports: [
@@ -69,7 +70,8 @@ import { DownloadsComponent } from './downloads/downloads.component';
     TrafficChartComponent,
     InfoComponent,
     IndexComponent,
-    DownloadsComponent
+    DownloadsComponent,
+    FontsComponent
   ],
 })
 export class DashboardModule { }

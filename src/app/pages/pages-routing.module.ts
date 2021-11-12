@@ -11,6 +11,7 @@ import { IndicatorsComponent } from './indicators/indicators.component';
 import { InfoComponent } from './dashboard/info/info.component';
 import { IndexComponent } from './dashboard/index/info.component';
 import { DownloadsComponent } from './dashboard/downloads/downloads.component';
+import { FontsComponent } from './dashboard/fonts/fonts.component';
 
 const routes: Routes = [{
   path: '',
@@ -48,6 +49,10 @@ const routes: Routes = [{
     {
       path: 'downloads',
       component: DownloadsComponent,
+    },
+    {
+      path: 'fonts',
+      component: FontsComponent,
     },
     {
       path: 'layout',
