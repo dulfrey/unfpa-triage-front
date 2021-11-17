@@ -34,6 +34,7 @@ import { InfoComponent } from './info/info.component';
 import { IndexComponent } from './index/info.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { FontsComponent } from './fonts/fonts.component';
+import { IndicatorInfoComponent } from './indicatorinfo/indicatorinfo.component';
 
 @NgModule({
   imports: [
@@ -71,7 +72,8 @@ import { FontsComponent } from './fonts/fonts.component';
     InfoComponent,
     IndexComponent,
     DownloadsComponent,
-    FontsComponent
+    FontsComponent,
+    IndicatorInfoComponent
   ],
 })
 export class DashboardModule { }
