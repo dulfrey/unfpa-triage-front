@@ -1,34 +1,117 @@
-{ "type": "FeatureCollection",
+{
+    "type": "FeatureCollection",
     "features": [
-      { "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
-        "properties": {"prop0": "value0"}
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102,
+            0.5
+          ]
         },
-      { "type": "Feature",
+        "properties": {
+          "prop0": "value0"
+        }
+      },
+      {
+        "type": "Feature",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
+            [
+              102,
+              0
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              104,
+              0
+            ],
+            [
+              105,
+              1
             ]
-          },
+          ]
+        },
         "properties": {
           "prop0": "value0",
-          "prop1": 0.0
-          }
+          "prop1": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                100,
+                0
+              ],
+              [
+                101,
+                0
+              ],
+              [
+                101,
+                1
+              ],
+              [
+                100,
+                1
+              ],
+              [
+                100,
+                0
+              ]
+            ]
+          ]
         },
-      { "type": "Feature",
-         "geometry": {
-           "type": "Polygon",
-           "coordinates": [
-             [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0],
-               [100.0, 1.0], [100.0, 0.0] ]
-             ]
-  
-         },
-         "properties": {
-           "prop0": "value0",
-           "prop1": {"this": "that"}
-           }
-         }
-      ]
-    }
+        "properties": {
+          "prop0": "value0",
+          "prop1": {
+            "this": "that"
+          }
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                101.1181640625,
+                -1.4720060101903352
+              ],
+              [
+                99.0966796875,
+                -0.08789059053082422
+              ],
+              [
+                99.404296875,
+                -2.986927393334863
+              ],
+              [
+                103.623046875,
+                -1.0765967983063982
+              ],
+              [
+                102.7001953125,
+                -0.10986321392741416
+              ],
+              [
+                101.1181640625,
+                -1.4720060101903352
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
