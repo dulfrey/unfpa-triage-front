@@ -4,7 +4,7 @@
       <nb-icon icon="menu-2-outline"></nb-icon>
     </a>
     <!-- {{ 'hello' | translate }} -->
-    <a class="logo" href="#" (click)="navigateHome()"><img src={{logo}} alt="" style="height: auto; width: 100%;"></a>
+    <a class="logo" href="#" (click)="navigateHome()"><img src={{logo}} alt="" style="height: 50px; width: auto;"></a>
   </div>
   <!-- <nb-select [selected]="currentTheme" (selectedChange)="changeTheme($event)" status="primary">
     <nb-option *ngFor="let theme of themes" [value]="theme.value"> {{ theme.name }}</nb-option>
@@ -25,6 +25,18 @@
                [name]="user?.name"
                [picture]="user?.picture">
       </nb-user> -->
+      <div class="logo-container">
+        <!-- {{ 'hello' | translate }} -->
+        
+        <a class="logo" href="#" (click)="navigateHome()">
+          <img style="height: 40px; width: auto;" src="../../../../assets/images/logos/logo-unfpa-color.png" alt="">
+        </a>
+        <a class="logo" href="#" (click)="navigateHome()">
+          
+          <img style="height: auto; width: 100%;" src="../../../../assets/images/logos/gobierno-colombia.png" alt="">
+        </a>
+      </div>
+      
     </nb-action>
   </nb-actions>
 </div>
