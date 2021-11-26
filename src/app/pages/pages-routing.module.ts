@@ -111,7 +111,7 @@ const routes: Routes = [{
     },
     {
       path: '',
-      redirectTo: 'dashboard',
+      redirectTo: 'index',
       pathMatch: 'full',
     },
     {
